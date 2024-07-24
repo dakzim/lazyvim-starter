@@ -14,4 +14,4 @@ vim.keymap.del("t", "<C-/>")
 -- terminal 模式下使用 Alt+/ 关闭窗口
 vim.keymap.set("t", "<A-/>", "<cmd>close<cr>", { desc = "Hide Terminal" })
 -- 行号显示开关
-vim.keymap.set("n", "<A-n>", "<cmd>set number! relativenumber!<cr>", { desc = "Toggle line numbers" })
+vim.keymap.set("n", "<A-'>", "<cmd>set number! relativenumber!<cr>", { desc = "Toggle line numbers" })
