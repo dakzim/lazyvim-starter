@@ -18,3 +18,6 @@ vim.keymap.del("t", "<C-h>")
 
 -- 行号显示开关
 vim.keymap.set("n", "<A-'>", "<cmd>set number! relativenumber!<cr>", { desc = "Toggle line numbers" })
+
+-- 显示提示的历史记录
+vim.keymap.set("n", "<leader>no", "<cmd>Telescope notify<cr>")
