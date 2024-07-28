@@ -28,4 +28,10 @@ return {
       },
     },
   },
+
+  -- 关闭自动补全成对符号
+  {
+    "echasnovski/mini.pairs",
+    enabled = false,
+  },
 }
